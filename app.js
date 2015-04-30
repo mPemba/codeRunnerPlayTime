@@ -1,5 +1,10 @@
 $(document).ready(function() {
-	
-	$("#dragMe").draggable({ cursor: "crosshair", cursorAt: { top: -5, left: -5 } });
-	
-})
+
+	$("#dragMe").draggable({ cursor: "crosshair" });
+
+	$( "#date" ).datepicker();
+
+	$( "#radicalFaceContainer" ).resizable();
+	$( "#radicalFace" ).resizable();
+
+});

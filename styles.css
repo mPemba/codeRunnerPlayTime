@@ -8,6 +8,17 @@
 	justify-content: center;
 	text-align: center;
 }
+.header {
+	text-align: center;
+}
 .hi {
 	font-family: sans-serif;
+}
+.radicalFaceContainer {
+	margin: 0 auto;
+	height: 215px;
+	width: 320px;
+	border: 1px solid #112342;
+	border-radius: 5px;
+	padding: 20px;
 }
