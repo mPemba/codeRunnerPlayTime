@@ -1,0 +1,13 @@
+.thisGuy {
+	width: 100px;
+	height: 100px;
+	border: 1px solid #112342;
+	border-radius: 200px;
+	color: #112342;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.hi {
+	font-family: sans-serif;
+}
