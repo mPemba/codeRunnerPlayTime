@@ -7,4 +7,5 @@ $(document).ready(function() {
 	$( "#radicalFaceContainer" ).resizable();
 	$( "#radicalFace" ).resizable();
 
+
 });

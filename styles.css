@@ -1,3 +1,8 @@
+html, body {
+	box-sizing: border-box;
+	width: 100%;
+	height: 2000px;
+}
 .thisGuy {
 	width: 100px;
 	height: 100px;
@@ -9,16 +14,89 @@
 	text-align: center;
 }
 .header {
-	text-align: center;
+	padding-top: 75px;
+	width: 100%;
+	height: 300px;
+	background: #112342;
+	color: #fff;
 }
-.hi {
-	font-family: sans-serif;
+.main-headline {
+	float: left;
+	margin-left: 36px;
+	font-family: 'Cabin', sans-serif;
+	text-rendering: geometricPrecision;
+	line-height: 35px;
+	letter-spacing: 2px;
+}
+.nav-menu {
+	display: flex;
+	flex-direction: row;
+	float: right;
+	list-style-type: none;
+	margin-right: 50px;
+}
+.nav-link {
+	margin: 20px;
+	color: #fff;
+	font-family: 'Cabin', sans-serif;
+}
+.sub-headline {
+	float: left;
+	clear: both;
+	margin-left: 36px;
+	font-family: 'Cabin', sans-serif;
+	text-rendering: geometricPrecision;
+	line-height: 35px;
+	letter-spacing: 2px;
+}
+.content {
+	background: #b3b3b3;
+	width: 100%;
+	height: 100%;
 }
 .radicalFaceContainer {
+	clear: both;
 	margin: 0 auto;
 	height: 215px;
 	width: 320px;
 	border: 1px solid #112342;
 	border-radius: 5px;
 	padding: 20px;
+}
+
+
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	
+	border-bottom: 50px solid black;
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	
+	border-top: 50px solid #f00;
+}
+
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	
+	border-left: 50px solid green;
+}
+
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent; 
+	
+	border-right:50px solid blue; 
 }

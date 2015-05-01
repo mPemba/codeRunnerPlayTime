@@ -8,26 +8,39 @@
 		<link type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.css" rel="stylesheet"/>
 		<link rel="stylesheet" href="jquery-ui-1.11.4.custom/jquery-ui.structure.css">
 		<link rel="stylesheet" href="jquery-ui-1.11.4.custom/jquery-ui.theme.css">
+		<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 
-  <div class="header">
-		<h1 class="main-headline">Resize Me</h1>
-		<p>you can listen to Radical Face right now if you want</p>
+    <div class="header">
+        <ul class="nav-menu">
+		    <li class="nav-item">
+		  	    <a class="nav-link">home</a>
+		    </li>
+		    <li class="nav-item">
+		  	    <a class="nav-link">contact</a>
+		    </li>
+		</ul>
+		<h1 class="main-headline">jQuery UI</h1>
+		<p class="sub-headline">you can listen to Radical Face right now if you want</p>
 	</div>
 
 	<div class="content">
 
-		<div class="radicalFaceContainer" id="radicalFaceContainer">
+	<h3 class="main-headline">resize me</h3>
+	<p class="sub-headline">The idea is a box with zero width and height. The actual width and height of the arrow is determined by the width of the border. In an up arrow, for example, the bottom border is colored while the left and right are transparent, which forms the triangle.</p>
 
-			<iframe id="radicalFace" width="95%" height="95%" src="https://www.youtube.com/embed/m6cQKfZXz6o?list=PLb7x634C-ASDTus2SE_pznQfyCJLcrSbU" frameborder="0" allowfullscreen>
-			</iframe>
-
-		</div>
-
-	</div>
+    <div class="radicalFaceContainer" id="radicalFaceContainer">
+		<iframe id="radicalFace" width="95%" height="95%" src="https://www.youtube.com/embed/m6cQKfZXz6o?list=PLb7x634C-ASDTus2SE_pznQfyCJLcrSbU" frameborder="0" allowfullscreen>
+		</iframe>
+    </div>
+    </div>
 
 	<div class="footer">
+	    <div class="arrow-up"></div>
+        <div class="arrow-down"></div>
+        <div class="arrow-left"></div>
+        <div class="arrow-right"></div>
 	</div>
 
 
