@@ -63,7 +63,31 @@ html, body {
 	border-radius: 5px;
 	padding: 20px;
 }
-
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	float: left;
+	margin-left: 100px;
+}
+.input-field {
+	width: 250px;
+	height: 35px;
+	margin-top: 20px;
+	background: none;
+	color: #112342;
+	font-family: 'Cabin';
+	border: 1.5px solid #112342;
+	border-radius: 5px;
+}
+.input-btn {
+	width: 250px;
+	height: 35px;
+	margin-top: 20px;
+	background: none;
+	color: #112342;
+	border: 1.5px solid #112342;
+	border-radius: 5px;
+}
 
 .arrow-up {
 	width: 0; 
